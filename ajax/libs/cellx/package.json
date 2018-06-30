@@ -1,7 +1,7 @@
 {
   "name": "cellx",
-  "filename": "cellx.min.js",
-  "version": "1.7.57",
+  "filename": "cellx.umd.js",
+  "version": "1.7.82",
   "description": "Ultra-fast implementation of reactivity for javascript",
   "keywords": [
     "cellx",
@@ -18,7 +18,7 @@
     {
       "basePath": "dist",
       "files": [
-        "**/*"
+        "**/!(Cell*|EventEmitter*|WaitError*|collections*|*.ts)"
       ]
     }
   ]
